@@ -140,3 +140,14 @@ console.log(obj1 === obj2);
 let arr1 = [1, 2, 3];
 let arr2 = [1, 2, 3];
 console.log(arr1 === arr2);
+
+console.log("Обычное сообщение");
+console.warn("Предупреждение!");
+console.error("Ошибка!");
+console.info("Иноформация!");
+let users = [
+    {name: "John", age: 30},
+    {name: "John", age: 25},
+];
+console.table(users);
+console.clear()
